@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login - WhatsApp 2</title>
+  <link rel="stylesheet" href="login.css">
+</head>
+<body>
+  <header>
+    <img src="whatsapp2.png" alt="Logo WhatsApp">
+    <h1>WhatsApp 2</h1>
+        <ul class="abas">
+            <li class="ativo"><button type="button" onclick="window.location.href='registro.html'">Registro Do Whatsapp2</button></li>
+
+            
+        </ul>
+
+  </header>
+  <main>
+    <section class="login">
+      <h2>Faça login no WhatsApp 2</h2>
+        <label for="usuario">Número de telefone ou e-mail:</label>
+        <input type="text" id="usuario" name="usuario" required>
+        <label for="senha">Senha:</label>
+        <input type="password" id="senha" name="senha" required>
+        <button type="submit" onclick="redirecionar()">Entrar</button>
+
+        <script>
+            function redirecionar() {
+window.location.href = "login2.html";
+}
+        </script>
+        </body>
+
